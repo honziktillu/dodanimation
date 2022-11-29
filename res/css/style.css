@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+:root {
+    --site-color: rgb(24,82,148);
+    --border-sizing: 2em;
+}
+
+* {
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+    transition: .6s;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 0;
+    min-height: 860px;
+    max-width: 1572px;
+    width: 100%;
+}
+
+.left-side {
+    padding: var(--border-sizing);
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.right-side {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    width: 100px;
+    height: auto;
+    z-index: 100;
+}
+
+.color-white {
+    color: white;
+}
+
+#qr-code-img {
+    margin-top: 1em;
+    z-index: 100;
+    position: relative;
+}
+
+.left-hidden {
+    transform: translate(-150%, 0);
+}
+
+.left-shown {
+    transform: translate(0, 0);
+}
+
+.bottom-hidden {
+    transform: translate(0, 300%);
+}
+
+.bottom-shown {
+    transform: translate(0, 0);
+}
+
+.bottom–rp-hidden {
+    transform: translate(0, 600%);
+}
+
+.bottom–rp-shown {
+    transform: translate(0, 0);
+}
+
+.bar-title {
+    position: relative;
+    transition: 1.2s;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.shown {
+    opacity: 1;
+    transition: 2s opacity ease;
+}
+
+.info-wrapper {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: var(--border-sizing);
+    background-color: rgba(24,82,148, 0.9);
+    min-height: 160px;
+    width: 100%;
+    opacity: 1 !important;
+}

@@ -1,0 +1,84 @@
+[
+    {
+        "title": "Informační technologie",
+        "subtitle": "Informační technologie 18-20-M/01",
+        "content": "Obor připravuje absolventy pro široké uplatnění v oboru informačních technologií. Příklady uplatnění absolventů: správce počítačové sítě, správce podnikového informačního systému, webdesigner, programátor, v IT firmách jako technik nebo prodejce HW a SW. Absolventi tohoto oboru mohou pokračovat ve studiu na vysoké škole v oboru zaměřeném na informační technologie. Nosnými předměty jsou Počítačové sítě a Programování a vývoj aplikací.",
+        "qrcode": "./res/img/qrcodes/it.png",
+        "images": [
+            {
+                "path": "./res/img/slides/it/1.jpeg",
+                "heading": "Učebna 30",
+                "info": "Moderní rekonstruovaná učebna ve stylu 30. let. Slouží pro výuku předmětů: Programování, Operační systémy, Virtuální realita, Webové aplikace a další! Velké díky patří Nadačnímu fondu ŠKODA AUTO, který tento počin inicioval a financoval."
+            },
+            {
+                "path": "./res/img/slides/it/2.jpeg",
+                "heading": "DOBÝVÁME VESMÍR!",
+                "info": "Naše škola se zúčastnila výzvy vzdělávacího programu AstroPi zaštítěného Evropskou vesmírnou organizací (ESA). Projekt Mission Zero je založen na vyslání kódů z celého světa na mezinárodní vesmírnou stanici (ISS), kde se program promítne, zaznamená aktuální polohu ISS ku zemi a účastníkům se zašle certifikát a záznam z toho, jak program doběhl."
+            },
+            {
+                "path": "./res/img/slides/it/3.jpeg",
+                "heading": "Nově u nás i virtuální realita!",
+                "info": "Žáci mohou u nás nově zabrouzdat do unikátního 3D prostředí, který nachází využití nejen v herním průmyslu, ale také ve strojírenství, matematice a ve školství!"
+            }
+        ]
+    },
+    {
+        "title": "Strojírenství",
+        "subtitle": "Strojírenství 23-41-M/01",
+        "content": "Obor zaměřený na CAD/CAM systémy ve strojírenství. Zaměření na programování CNC strojů a CAD systémy poskytuje žákům rozšířené vědomosti a dovednosti ve vytváření programů pro řízení CNC strojů. Žáci jsou připravováni pro pracovní pozice typu konstruktér, technolog, programátor a obsluha CNC strojů. Nosnými předměty jsou CNC programování, Konstruování na počítačích ve špičkovém CAD systému CATIA, Stavba a provoz strojů a Strojírenská technologie.",
+        "qrcode": "./res/img/qrcodes/st.png",
+        "images": [
+            {
+                "path": "./res/img/slides/it/1.jpeg",
+                "heading": "Učebna 30",
+                "info": ""
+            }
+        ]
+    },
+    {
+        "title": "Dopravní prostředky",
+        "subtitle": "Dopravní prostředky 23-45-M/01",
+        "content": "Obor zaměřený na automobilovou dopravu, vhodný zejména pro chlapce, ale i pro děvčata. Žáci jsou připravováni pro pracovní pozice typu přejímací technik, dispečer, operátor logistiky, supervizor,  koordinátor výroby, v servisních službách automobilek, případně i ve státní správě (dopravní policista apod.). Součástí studijního programu je získání řidičského oprávnění skupiny B a C ve vlastní autoškole. Nosnými předměty jsou Silniční vozidla a Provozuschopnost dopravních prostředků.",
+        "qrcode": "./res/img/qrcodes/dp.png",
+        "images": [
+            {
+                "path": "./res/img/slides/dp/1.jpg",
+                "heading": "Autoškola",
+                "info": "Zdarma řidičský průkaz"
+            }
+        ]
+    },
+    {
+        "title": "Spousta zábavy",
+        "subtitle": "S námi se tu nudit nebudeš 😎",
+        "content": "Nesedíme jenom ve škole. Když je venku zrovna podařený počasí, tak zavítáme například na sportovní kurz nebo někam na školní výlet či exkurzi.<br><br> Pokud se počasí nedaří a je zrovna volná chvíle, tak pořádáme různé herní turnaje a aktivity. Takže jestli je někdo fanoušek her jako CS:GO, League of Legends, Beat Saber a FIFA, tak své vášně se i přes obsáhlý výukový program vzdát nemusí!<br><br> Zkrátka řečeno, o zábavu tu máme postaráno 😎<br><br>PS: Memes máme taky",
+        "qrcode": "./res/img/qrcodes/fb.png",
+        "images": [
+            {
+                "path": "./res/img/slides/ft/1.jpeg",
+                "heading": "Sportovní kurz",
+                "info": "BOWLING!"
+            },
+            {
+                "path": "./res/img/slides/ft/2.jpeg",
+                "heading": "Sportovní kurz",
+                "info": "Vyhlídka U Lvíčka"
+            },
+            {
+                "path": "./res/img/slides/ft/3.jpeg",
+                "heading": "Sportovní kurz",
+                "info": "Na vodě"
+            },
+            {
+                "path": "./res/img/slides/ft/5.jpeg",
+                "heading": "Školní výlet",
+                "info": "Lučany nad Nisou"
+            },
+            {
+                "path": "./res/img/slides/ft/6.jpeg",
+                "heading": "Školní výlet",
+                "info": "Hamr na Jezeře"
+            }
+        ]
+    }
+]
