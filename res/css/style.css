@@ -66,26 +66,32 @@ body {
 
 .left-hidden {
     transform: translate(-150%, 0);
+    opacity: 0;
 }
 
 .left-shown {
     transform: translate(0, 0);
+    opacity: 1;
 }
 
 .bottom-hidden {
     transform: translate(0, 300%);
+    opacity: 0;
 }
 
 .bottom-shown {
     transform: translate(0, 0);
+    opacity: 1;
 }
 
 .bottom–rp-hidden {
     transform: translate(0, 600%);
+    opacity: 0;
 }
 
 .bottom–rp-shown {
     transform: translate(0, 0);
+    opacity: 1;
 }
 
 .bar-title {
