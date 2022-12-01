@@ -29,9 +29,19 @@
         "qrcode": "./res/img/qrcodes/st.png",
         "images": [
             {
-                "path": "./res/img/slides/it/1.jpeg",
-                "heading": "Učebna 30",
+                "path": "./res/img/slides/st/1.jpg",
+                "heading": "Školní dílny",
                 "info": ""
+            },
+            {
+                "path": "./res/img/slides/st/2.jpg",
+                "heading": "Grafika",
+                "info": "Převodovka"
+            },
+            {
+                "path": "./res/img/slides/st/3.jpg",
+                "heading": "Grafika",
+                "info": "Šachy"
             }
         ]
     },
@@ -45,6 +55,11 @@
                 "path": "./res/img/slides/dp/1.jpg",
                 "heading": "Autoškola",
                 "info": "Zdarma řidičský průkaz"
+            },
+            {
+                "path": "./res/img/slides/dp/2.png",
+                "heading": "Školní dílny",
+                "info": ""
             }
         ]
     },
@@ -70,7 +85,7 @@
                 "info": "Na vodě"
             },
             {
-                "path": "./res/img/slides/ft/4.jpeg",
+                "path": "./res/img/slides/ft/4.jpg",
                 "heading": "Školní výlet",
                 "info": "Lučany nad Nisou"
             },
