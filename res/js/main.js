@@ -5,7 +5,7 @@ const barInfo = document.getElementsByClassName("bar-info")[0];
 const slideshow = document.getElementsByClassName("slideshow")[0];
 const qrCodeImg = document.getElementById("qr-code-img");
 const content = document.getElementById("content");
-const loopIntervalTimeout = 25000;
+const loopIntervalTimeout = 30000;
 let mainLoopInterval;
 let data;
 

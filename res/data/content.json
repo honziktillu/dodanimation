@@ -19,6 +19,11 @@
                 "path": "./res/img/slides/it/3.jpeg",
                 "heading": "Nově u nás i virtuální realita!",
                 "info": "Žáci mohou u nás nově zabrouzdat do unikátního 3D prostředí, který nachází využití nejen v herním průmyslu, ale také ve strojírenství, matematice a ve školství!"
+            },
+            {
+                "path": "./res/img/slides/it/4.jpg",
+                "heading": "Grafika",
+                "info": "Šachy"
             }
         ]
     },
@@ -41,7 +46,12 @@
             {
                 "path": "./res/img/slides/st/3.jpg",
                 "heading": "Grafika",
-                "info": "Šachy"
+                "info": "Dvouválec"
+            },
+            {
+                "path": "./res/img/slides/st/4.jpg",
+                "heading": "Grafika",
+                "info": "Bugy"
             }
         ]
     },
