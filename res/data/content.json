@@ -108,6 +108,11 @@
                 "path": "./res/img/slides/ft/6.jpeg",
                 "heading": "Školní výlet",
                 "info": "Hamr na Jezeře"
+            },
+            {
+                "path": "./res/img/slides/ft/7.jpeg",
+                "heading": "Fotka z hodiny",
+                "info": "😎"
             }
         ]
     }
