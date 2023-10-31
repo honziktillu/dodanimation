@@ -46,20 +46,20 @@
         ]
     },
     {
-        "title": "Dopravní prostředky",
-        "subtitle": "Dopravní prostředky 23-45-M/01",
-        "content": "Obor zaměřený na automobilovou dopravu, vhodný zejména pro chlapce, ale i pro děvčata. Žáci jsou připravováni pro pracovní pozice typu přejímací technik, dispečer, operátor logistiky, supervizor,  koordinátor výroby, v servisních službách automobilek, případně i ve státní správě (dopravní policista apod.). Součástí studijního programu je získání řidičského oprávnění skupiny B a C ve vlastní autoškole. Nosnými předměty jsou Silniční vozidla a Provozuschopnost dopravních prostředků.",
-        "qrcode": "./res/img/qrcodes/dp.png",
+        "title": "Technické lyceum",
+        "subtitle": "Technické lyceum 78-42-M/01",
+        "content": "Ve školním roce 2024/2025 otevřeme nově 1 třídu tohoto studijního oboru, který bude zaměřen na mechatroniku a robotiku. Absolventi tohoto oboru budou připraveni ke studiu na vysoké škole technického směru nebo do praxe na velmi žádané a dobře placené profese. Nosnými odbornými předměty jsou Mechatronika a Robotika.",
+        "qrcode": "./res/img/qrcodes/tl.png",
         "images": [
             {
-                "path": "./res/img/slides/dp/1.jpg",
-                "heading": "Autoškola",
-                "info": "Zdarma řidičský průkaz"
+                "path": "./res/img/slides/tl/1.jpeg",
+                "heading": "Robot",
+                "info": "Robot GoFa™ CRB 15000"
             },
             {
-                "path": "./res/img/slides/dp/2.png",
-                "heading": "Školní dílny",
-                "info": ""
+                "path": "./res/img/slides/tl/2.png",
+                "heading": "Stavebnice",
+                "info": "Stavebnice Merkur"
             }
         ]
     },
