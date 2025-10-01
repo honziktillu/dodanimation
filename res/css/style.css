@@ -1,121 +1,305 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 :root {
-    --site-color: rgb(24,82,148);
-    --border-sizing: 2em;
+  --site-color: 2896d1;
 }
 
 * {
-    user-select: none;
-    font-family: 'Poppins', sans-serif;
-    transition: .6s;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
 }
 
-html, body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 9vh;
+  overflow: auto;
+  background-color: #2896d1;
+  z-index: 100;
+  display: grid; /* grid pro 3 sekce */
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center; /* horizontální vycentrování obsahu uvnitř třetiny */
+  gap: 0.5em;
+  padding: 1em 2em;
+  color: white;
 }
 
-.wrapper {
-    padding: 0;
-    min-height: 860px;
-    max-width: 1572px;
-    width: 100%;
+/* LEVÁ TŘETINA */
+.header-left,
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.left-side {
-    padding: var(--border-sizing);
-    padding-bottom: 0;
-    height: 100%;
+/* STŘEDNÍ TŘETINA: logo + texty */
+.header-center {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: -0.3em;
 }
 
-.right-side {
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
+.header-logo {
+  max-width: 80px;
+  width: 100%;
+  height: auto;
 }
 
-#logo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 1em;
-    width: 100px;
+.header-texts {
+  display: flex;
+  flex-direction: column; /* texty pod sebou */
+  justify-content: center;
+  text-align: left;
+  margin-top: 0.3em;
+  letter-spacing: -0.5px;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-subtitle {
+  font-size: 1.33rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-texts h1,
+.header-texts p {
+  margin: 0;
+  line-height: 0.97; /* těsně pod sebou */
+}
+
+/* Texty pro levou a pravou třetinu */
+.header-left-text,
+.header-right-text {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Responzivita */
+@media (max-width: 1024px) {
+  .main-header {
+    grid-template-columns: 1fr; /* všechny části pod sebe */
+    justify-items: center;
+    text-align: center;
     height: auto;
-    z-index: 100;
+  }
+  .header-center,
+  .header-left,
+  .header-right {
+    flex-direction: column;
+    gap: 0.3em;
+  }
 }
 
-.color-white {
-    color: white;
+@media (max-width: 600px) {
+  .header-logo {
+    max-width: 50px;
+  }
+  .header-title {
+    font-size: 1.2rem;
+  }
+  .header-subtitle {
+    font-size: 1rem;
+  }
+  .header-left-text,
+  .header-center-text,
+  .header-right-text {
+    font-size: 4vw;
+  }
 }
 
-#qr-code-img {
-    margin-top: 1em;
-    z-index: 100;
-    position: relative;
+/* Grid layout: levá 4, pravá 8 */
+.wrapper {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  width: 100vw;
+  height: 100vh;
 }
 
+/* Levá část */
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* text vlevo */
+  text-align: left;
+  padding: 8%;
+  padding-top: 20%;
+  background-color: white;
+}
+
+.left-side .title {
+  font-size: 2.1vw;
+  color: #34a0d7;
+}
+
+.left-side .subtitle {
+  font-size: 1.5vw;
+  color: #34a0d7;
+}
+
+.left-side #content {
+  font-size: 1.2vw;
+  color: #166a96;
+}
+
+/* QR kód na střed */
+.left-side #qr-code-img {
+  width: 40%;
+  max-width: 150px;
+  height: auto;
+  margin: 2% auto 0 auto; /* horizontálně vycentrováno */
+}
+
+/* Pravá část */
+.right-side {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover; /* vyplní prostor */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Odstranit ::before úplně, pokud jsi ho používal */
+.right-side::before {
+  display: none;
+}
+
+/* Info panel */
+.info-wrapper {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  width: 96%;
+  background-color: rgba(40, 150, 209, 0.85);
+  padding: 1%;
+  font-size: 1.3vw;
+  z-index: 10;
+  color: white;
+}
+
+/* Animace */
 .left-hidden {
-    transform: translate(-150%, 0);
-    opacity: 0;
+  transform: translateX(-150%);
+  opacity: 0;
 }
-
 .left-shown {
-    transform: translate(0, 0);
-    opacity: 1;
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .bottom-hidden {
-    transform: translate(0, 300%);
-    opacity: 0;
+  transform: translateY(300%);
+  opacity: 0;
 }
-
 .bottom-shown {
-    transform: translate(0, 0);
-    opacity: 1;
+  transform: translateY(0);
+  opacity: 1;
 }
 
-.bottom–rp-hidden {
-    transform: translate(0, 600%);
-    opacity: 0;
+.bottom-rp-hidden {
+  transform: translateY(600%);
+  opacity: 0;
 }
-
-.bottom–rp-shown {
-    transform: translate(0, 0);
-    opacity: 1;
+.bottom-rp-shown {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .bar-title {
-    position: relative;
-    transition: 1.2s;
+  position: relative;
+  transition: 1.2s;
 }
 
 .hidden {
-    opacity: 0;
+  opacity: 0;
 }
-
 .shown {
-    opacity: 1;
-    transition: 2s opacity ease;
+  opacity: 1;
+  transition: 2s opacity ease;
 }
 
-.info-wrapper {
-    color: white;
-    position: absolute;
-    bottom: 0;
-    padding: var(--border-sizing);
-    background-color: rgba(24,82,148, 0.9);
-    min-height: 160px;
+/* Responzivita */
+@media (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr; /* sloupec nad sloupec na tabletu */
+  }
+  .left-side,
+  .right-side {
     width: 100%;
-    opacity: 1 !important;
+  }
+  #logo {
+    width: 15%;
+    top: 1em;
+    right: 1em;
+  }
+  .left-side .title {
+    font-size: 6vw;
+  }
+  .left-side .subtitle {
+    font-size: 4vw;
+  }
+  .left-side #content {
+    font-size: 3vw;
+  }
+  .info-wrapper {
+    font-size: 3vw;
+    padding: 3%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
+  #logo {
+    width: 25%;
+    top: 3%;
+    right: 3%;
+  }
+  .left-side .title {
+    font-size: 8vw;
+  }
+  .left-side .subtitle {
+    font-size: 5vw;
+  }
+  .left-side #content {
+    font-size: 4vw;
+  }
+  .left-side {
+    padding: 4vw;
+  }
+  .info-wrapper {
+    font-size: 4vw;
+    padding: 5%;
+  }
 }

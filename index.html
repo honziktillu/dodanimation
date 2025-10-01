@@ -11,24 +11,58 @@
       href="./res/img/logos/2.png"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="columns wrapper is-gapless">
-      <div class="column is-one-quarter">
-        <div class="left-side">
-          <h1 class="title left-hidden"></h1>
-          <h2 class="subtitle left-hidden"></h2>
-          <p id="content" class="left-hidden"></p>
-          <img id="qr-code-img" class="bottom-hidden" src="" alt="qrcode not found" />
+    <header class="main-header">
+      <!-- Levá třetina -->
+      <div class="header-left">
+        <p class="header-left-text">www.spsmb.cz</p>
+      </div>
+
+      <!-- Střední třetina: logo + název školy -->
+      <div class="header-center">
+        <img src="./res/img/logos/1.png" alt="Logo" class="header-logo" />
+        <div class="header-texts">
+          <h1 class="header-title">STŘEDNÍ PRŮMYSLOVÁ ŠKOLA</h1>
+          <p class="header-subtitle">MLADÁ BOLESLAV</p>
         </div>
       </div>
-      <div class="column">
-        <div class="right-side slideshow hidden">
-          <img src="./res/img/logos/1.png" alt="fujlogo" id="logo" />
-          <div class="info-wrapper">
-            <h2 class="title color-white is-size-4 bar-title left-hidden"></h2>
-            <p class="subtitle color-white is-size-6 bar-info bottom–rp-hidden"></p>
-          </div>
+
+      <!-- Pravá třetina -->
+      <div class="header-right">
+        <p class="header-right-text">
+          <i
+            style="font-weight: bold; font-size: 23px"
+            class="fa-brands fa-instagram"
+          ></i>
+          @zivotnaprumce
+        </p>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="left-side">
+        <h1 class="title left-hidden">Titulek</h1>
+        <h2 class="subtitle left-hidden">Podtitulek</h2>
+        <p id="content" class="left-hidden">Obsah textu zde...</p>
+        <img
+          id="qr-code-img"
+          class="bottom-hidden"
+          src=""
+          alt="qrcode not found"
+        />
+      </div>
+      <div class="right-side">
+        <img alt="Slideshow" class="right-img" />
+        <div class="info-wrapper">
+          <h2 class="title color-white bar-title left-hidden">Info Titulek</h2>
+          <p class="subtitle color-white bar-info bottom-rp-hidden">
+            Informace zde...
+          </p>
         </div>
       </div>
     </div>

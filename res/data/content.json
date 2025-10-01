@@ -1,7 +1,7 @@
 [
     {
         "title": "Informační technologie",
-        "subtitle": "Informační technologie 18-20-M/01",
+        "subtitle": "18-20-M/01",
         "content": "Obor připravuje absolventy pro široké uplatnění v oboru informačních technologií. Příklady uplatnění absolventů: správce počítačové sítě, správce podnikového informačního systému, webdesigner, programátor, v IT firmách jako technik nebo prodejce HW a SW. Absolventi tohoto oboru mohou pokračovat ve studiu na vysoké škole v oboru zaměřeném na informační technologie. Nosnými předměty jsou Počítačové sítě a Programování a vývoj aplikací.",
         "qrcode": "./res/img/qrcodes/it.png",
         "images": [
@@ -29,7 +29,7 @@
     },
     {
         "title": "Strojírenství",
-        "subtitle": "Strojírenství 23-41-M/01",
+        "subtitle": "23-41-M/01",
         "content": "Obor zaměřený na CAD/CAM systémy ve strojírenství. Zaměření na programování CNC strojů a CAD systémy poskytuje žákům rozšířené vědomosti a dovednosti ve vytváření programů pro řízení CNC strojů. Žáci jsou připravováni pro pracovní pozice typu konstruktér, technolog, programátor a obsluha CNC strojů. Nosnými předměty jsou CNC programování, Konstruování na počítačích ve špičkovém CAD systému CATIA, Stavba a provoz strojů a Strojírenská technologie.",
         "qrcode": "./res/img/qrcodes/st.png",
         "images": [
@@ -57,19 +57,24 @@
     },
     {
         "title": "Technické lyceum",
-        "subtitle": "Technické lyceum 78-42-M/01",
+        "subtitle": "78-42-M/01",
         "content": "Ve školním roce 2024/2025 otevřeme nově 1 třídu tohoto studijního oboru, který bude zaměřen na mechatroniku a robotiku. Absolventi tohoto oboru budou připraveni ke studiu na vysoké škole technického směru nebo do praxe na velmi žádané a dobře placené profese. Nosnými odbornými předměty jsou Mechatronika a Robotika.",
         "qrcode": "./res/img/qrcodes/tl.png",
         "images": [
+             {
+                "path": "./res/img/slides/tl/1.jpeg",
+                "heading": "Co je Technické lyceum?",
+                "info": "Technické lyceum je maturitní obor zaměřený na mechatroniku a robotiku. Studenti se seznámí s moderními technologiemi, jako jsou platforma Arduino, profesionální systém RobotStudio a CAD systémy ve špičkovém CAD systému CATIA."
+            },
             {
                 "path": "./res/img/slides/tl/1.jpeg",
-                "heading": "Robot",
-                "info": "Robot GoFa™ CRB 15000"
+                "heading": "Praktické dovednosti a vybavení",
+                "info": "Během studia se studenti naučí pracovat s roboty, CNC stroji a 3D tiskárnami. Výuka probíhá v moderně vybavených učebnách, což umožňuje získat praktické dovednosti potřebné pro práci v technických oborech. Studenti si také mohou vybrat specializaci: programování CNC strojů nebo počítačovou grafiku se zaměřením na virtuální realitu."
             },
             {
                 "path": "./res/img/slides/tl/2.png",
-                "heading": "Stavebnice",
-                "info": "Stavebnice Merkur"
+                "heading": "Uplatnění a budoucnost",
+                "info": "Absolventi Technického lycea jsou připraveni k vysokoškolskému studiu technických a přírodovědných oborů. Mohou se uplatnit jako technologové průmyslových robotických linek, konstruktéři, designéři, programátoři a obsluha CNC strojů."
             }
         ]
     },
