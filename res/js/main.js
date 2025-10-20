@@ -5,8 +5,10 @@ const barInfo = document.getElementsByClassName("bar-info")[0];
 const slideshow = document.getElementsByClassName("right-side")[0];
 const qrCodeImg = document.getElementById("qr-code-img");
 const content = document.getElementById("content");
+const infoWrapper = document.getElementsByClassName("info-wrapper")[0];
 
-const loopIntervalTimeout = 5000;
+//Rychlost animace 1000ms * 10
+const loopIntervalTimeout = 1000 * 20;
 let mainLoopInterval;
 let data;
 
@@ -110,7 +112,9 @@ const animationLoadImage = (res) => {
     slideshow.style.backgroundImage = `url(${data[mainRound]["images"][subRound].path})`;
   }, 400);
   setTimeout(() => {
+    infoWrapper.classList.remove("hidden");
     slideshow.classList.remove("hidden");
+    infoWrapper.classList.add("shown");
     slideshow.classList.add("shown");
     res();
   }, 600);

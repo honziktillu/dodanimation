@@ -29,14 +29,15 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 9vh;
-  overflow: auto;
+  height: auto;          /* výška se přizpůsobí obsahu */
+  min-height: 9vh;       /* zachování minimální výšky pro desktop */
+  overflow: hidden;      /* zamezí scrollbaru */
   background-color: #2896d1;
   z-index: 100;
-  display: grid; /* grid pro 3 sekce */
+  display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  justify-items: center; /* horizontální vycentrování obsahu uvnitř třetiny */
+  justify-items: center;
   gap: 0.5em;
   padding: 1em 2em;
   color: white;
@@ -53,44 +54,82 @@ body {
 /* STŘEDNÍ TŘETINA: logo + texty */
 .header-center {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;       /* zalamování pro malé obrazovky */
+  align-items: center;   /* vertikální vycentrování */
+  justify-content: center;
   gap: 0.5em;
-  margin-top: -0.3em;
+  margin-top: 0;         /* odstranit posun */
 }
 
 .header-logo {
-  max-width: 80px;
-  width: 100%;
-  height: auto;
+  width: 5.5vw;      /* hlavní dynamická velikost */
+  max-width: 85px; /* desktop limit */
+  min-width: 35px; /* mobilní limit */
+  height: auto;    /* zachová poměr stran */
 }
 
 .header-texts {
   display: flex;
-  flex-direction: column; /* texty pod sebou */
+  flex-direction: column;
   justify-content: center;
   text-align: left;
   margin-top: 0.3em;
   letter-spacing: -0.5px;
+  max-width: 40vw; /* nepřekračuje určitou šířku */
 }
 
 .header-title {
-  font-size: 1.5rem;
+  font-size: 2vw; /* relativní velikost */
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
 }
 
 .header-subtitle {
-  font-size: 1.33rem;
+  font-size: 1.5vw;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
 }
 
 .header-texts h1,
 .header-texts p {
   margin: 0;
   line-height: 0.97; /* těsně pod sebou */
+}
+
+@media (max-width: 1024px) {
+  .header-center {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-logo {
+    width: 15vw;
+    max-width: 60px;
+  }
+  .header-title {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .header-subtitle {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-logo {
+    width: 20vw;
+    max-width: 50px;
+  }
+  .header-title {
+    font-size: 5vw;
+  }
+  .header-subtitle {
+    font-size: 4vw;
+  }
+  .header-left-text,
+  .header-right-text {
+    font-size: 4vw;
+  }
 }
 
 /* Texty pro levou a pravou třetinu */
@@ -197,16 +236,15 @@ body {
 /* Info panel */
 .info-wrapper {
   position: absolute;
-  bottom: 2%;
-  left: 2%;
-  width: 96%;
-  background-color: rgba(40, 150, 209, 0.85);
-  padding: 1%;
-  font-size: 1.3vw;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(22, 106, 150, 0.85);
+  padding: 2%;
+  font-size: 1.3vw; /* font se škáluje podle viewportu */
+  min-height: calc(1.3vw * 12); /* dynamická min-height podle font-size */
   z-index: 10;
   color: white;
 }
-
 /* Animace */
 .left-hidden {
   transform: translateX(-150%);

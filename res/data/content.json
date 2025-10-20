@@ -2,7 +2,7 @@
     {
         "title": "Informační technologie",
         "subtitle": "18-20-M/01",
-        "content": "Obor připravuje absolventy pro široké uplatnění v oboru informačních technologií. Příklady uplatnění absolventů: správce počítačové sítě, správce podnikového informačního systému, webdesigner, programátor, v IT firmách jako technik nebo prodejce HW a SW. Absolventi tohoto oboru mohou pokračovat ve studiu na vysoké škole v oboru zaměřeném na informační technologie. Nosnými předměty jsou Počítačové sítě a Programování a vývoj aplikací.",
+        "content": "Staň se odborníkem v informačních technologiích a poznej, jak se kreativita propojuje s nejnovějšími technologiemi. Naučíš se vyvíjet aplikace, zabezpečovat data, spravovat sítě a tvořit interaktivní zážitky ve virtuální realitě. Zjistíš, jak můžeš své nápady proměnit v realitu díky 3D tisku a moderním digitálním nástrojům. Vydej se cestou, která nabízí nekonečné možnosti a jistou budoucnost v neustále se rozvíjejícím oboru. Rozvíjej své schopnosti, posouvej hranice technologií a staň se součástí světa, který mění způsob, jak žijeme, komunikujeme i tvoříme.",
         "qrcode": "./res/img/qrcodes/it.png",
         "images": [
             {
@@ -12,53 +12,48 @@
             },
             {
                 "path": "./res/img/slides/it/2.jpeg",
-                "heading": "DOBÝVÁME VESMÍR!",
-                "info": "Naše škola se zúčastnila výzvy vzdělávacího programu AstroPi zaštítěného Evropskou vesmírnou organizací (ESA). Projekt Mission Zero je založen na vyslání kódů z celého světa na mezinárodní vesmírnou stanici (ISS), kde se program promítne, zaznamená aktuální polohu ISS ku zemi a účastníkům se zašle certifikát a záznam z toho, jak program doběhl."
-            },
-            {
-                "path": "./res/img/slides/it/3.jpeg",
                 "heading": "Nově u nás i virtuální realita!",
                 "info": "Žáci mohou u nás nově zabrouzdat do unikátního 3D prostředí, který nachází využití nejen v herním průmyslu, ale také ve strojírenství, matematice a ve školství!"
             },
+              {
+                "path": "./res/img/slides/it/4.jpeg",
+                "heading": "Učebna virtuální reality ve virtuální realitě",
+                "info": "Tato učebna virtuální reality byla vymodelována přímo ve VR prostředí v Unreal Engine 5. Žáci si tak zkouší, jak pracovat s 3D prostorem přímo „uvnitř“ virtuální reality, rozvíjejí prostorovou představivost a získávají zkušenosti s moderními nástroji pro vizualizaci a návrh prostředí."
+            },
             {
-                "path": "./res/img/slides/it/4.jpg",
-                "heading": "Grafika",
-                "info": "Šachy"
+                "path": "./res/img/slides/it/3.jpeg",
+                "heading": "Realizování modelů pomocí 3d tisku!",
+                "info": "Na této fotce se tiskne 3D busta jednoho z našich učitelů. Žáci se při 3D tisku učí pracovat s modelem, připravovat ho pro tisk a sledovat celý proces vrstvení. Projekt ukazuje, jak lze digitální návrh převést do hmatatelného objektu a rozvíjí praktické dovednosti v moderní výrobě."
             }
         ]
     },
     {
         "title": "Strojírenství",
         "subtitle": "23-41-M/01",
-        "content": "Obor zaměřený na CAD/CAM systémy ve strojírenství. Zaměření na programování CNC strojů a CAD systémy poskytuje žákům rozšířené vědomosti a dovednosti ve vytváření programů pro řízení CNC strojů. Žáci jsou připravováni pro pracovní pozice typu konstruktér, technolog, programátor a obsluha CNC strojů. Nosnými předměty jsou CNC programování, Konstruování na počítačích ve špičkovém CAD systému CATIA, Stavba a provoz strojů a Strojírenská technologie.",
+        "content": "Staň se odborníkem ve strojírenství a poznej, jak se technická přesnost spojuje s nejmodernějšími technologiemi. Naučíš se programovat CNC stroje, vytvářet modely v CAD systémech a přetvářet své nápady v realitu pomocí 3D tisku. Objevíš svět, kde se kreativita mění v reálné výrobky, a každý projekt nese tvůj otisk. Vydej se cestou, která propojuje inovace, dovednost a technické myšlení, a vybuduj kariéru s pevnými základy. Rozvíjej svůj talent, zapoj se do praktických projektů a staň se součástí oboru, který formuje budoucnost průmyslu i každodenního života.",
         "qrcode": "./res/img/qrcodes/st.png",
         "images": [
             {
-                "path": "./res/img/slides/st/1.jpg",
-                "heading": "Školní dílny",
-                "info": ""
+                "path": "./res/img/slides/st/1.png",
+                "heading": "CAD systém CATIA",
+                "info": "CATIA je software pro 3D modelování a konstrukci strojních součástí. Na naší škole se žáci naučí vytvářet vlastní modely a výkresy a získají zkušenosti s programem používaným v průmyslu. Díky práci v CATIA si rozvíjejí technické myšlení a připravují se na praxi."
             },
             {
                 "path": "./res/img/slides/st/2.jpg",
-                "heading": "Grafika",
-                "info": "Převodovka"
+                "heading": "CAD systém CATIA",
+                "info": "Tento obrázek ukazuje hotovou 3D převodovku vytvořenou v CAD systému CATIA. Žáci si tak mohou prohlédnout základní součásti a jejich propojení, pochopit principy převodového mechanismu a vidět výsledný funkční model."
             },
             {
                 "path": "./res/img/slides/st/3.jpg",
-                "heading": "Grafika",
-                "info": "Dvouválec"
-            },
-            {
-                "path": "./res/img/slides/st/4.jpg",
-                "heading": "Grafika",
-                "info": "Bugy"
+                "heading": "Elektrotechnika",
+                "info": "Žáci se učí základy elektrotechniky a elektroniky pomocí speciální výukové sady. Sestavují a testují elektrické obvody a používají multimetr k měření napětí a proudu, aby si ověřili funkčnost zapojení. Tato praktická výuka rozvíjí jejich technické dovednosti."
             }
         ]
     },
     {
         "title": "Technické lyceum",
         "subtitle": "78-42-M/01",
-        "content": "Ve školním roce 2024/2025 otevřeme nově 1 třídu tohoto studijního oboru, který bude zaměřen na mechatroniku a robotiku. Absolventi tohoto oboru budou připraveni ke studiu na vysoké škole technického směru nebo do praxe na velmi žádané a dobře placené profese. Nosnými odbornými předměty jsou Mechatronika a Robotika.",
+        "content": "Staň se odborníkem v moderních technologiích a otevři si dveře do světa budoucnosti. Objev fascinující spojení robotiky, mechatroniky a počítačové kreativity, kde se technické dovednosti potkávají s inovativním myšlením. Naučíš se programovat roboty, ovládat CNC stroje a tvořit přesné 3D modely, které se mění v reálné produkty. Získáš zkušenosti, které ti umožní nejen rozumět moderním technologiím, ale i je aktivně tvořit a posouvat dál. Vydej se cestou, kde technika ožívá pod tvýma rukama – a buduj kariéru plnou inovací, kreativity a nekonečných možností.",
         "qrcode": "./res/img/qrcodes/tl.png",
         "images": [
              {
@@ -67,12 +62,12 @@
                 "info": "Technické lyceum je maturitní obor zaměřený na mechatroniku a robotiku. Studenti se seznámí s moderními technologiemi, jako jsou platforma Arduino, profesionální systém RobotStudio a CAD systémy ve špičkovém CAD systému CATIA."
             },
             {
-                "path": "./res/img/slides/tl/1.jpeg",
+                "path": "./res/img/slides/tl/2.jpg",
                 "heading": "Praktické dovednosti a vybavení",
-                "info": "Během studia se studenti naučí pracovat s roboty, CNC stroji a 3D tiskárnami. Výuka probíhá v moderně vybavených učebnách, což umožňuje získat praktické dovednosti potřebné pro práci v technických oborech. Studenti si také mohou vybrat specializaci: programování CNC strojů nebo počítačovou grafiku se zaměřením na virtuální realitu."
+                "info": "Během studia se studenti naučí pracovat s roboty, CNC stroji a 3D tiskárnami. Výuka probíhá v moderně vybavených učebnách. Studenti si také mohou vybrat specializaci: programování CNC strojů nebo počítačovou grafiku se zaměřením na virtuální realitu."
             },
             {
-                "path": "./res/img/slides/tl/2.png",
+                "path": "./res/img/slides/tl/3.jpg",
                 "heading": "Uplatnění a budoucnost",
                 "info": "Absolventi Technického lycea jsou připraveni k vysokoškolskému studiu technických a přírodovědných oborů. Mohou se uplatnit jako technologové průmyslových robotických linek, konstruktéři, designéři, programátoři a obsluha CNC strojů."
             }
@@ -81,43 +76,23 @@
     {
         "title": "Spousta zábavy",
         "subtitle": "S námi se tu nudit nebudeš 😎",
-        "content": "Nesedíme jenom ve škole. Když je venku zrovna podařené počasí, tak zavítáme například na sportovní kurz nebo někam na školní výlet či exkurzi.<br><br> Pokud se počasí nedaří a je zrovna volná chvíle, tak pořádáme různé herní turnaje a aktivity. Takže jestli je někdo fanoušek her jako CS:GO, League of Legends, Beat Saber a FIFA, tak se své vášně i přes obsáhlý výukový program vzdát nemusí!<br><br> Zkrátka řečeno, o zábavu tu máme postaráno 😎<br><br>PS: Memes máme taky",
+        "content": "Nesedíme jenom ve škole. Když je venku zrovna podařené počasí, tak zavítáme například na sportovní kurz nebo někam na školní výlet či exkurzi.<br><br> Pokud se počasí nedaří a je zrovna volná chvíle, tak pořádáme různé herní turnaje a aktivity. Takže jestli je někdo fanoušek her jako CS:GO, League of Legends, Beat Saber a FIFA, tak se své vášně i přes obsáhlý výukový program vzdát nemusí!<br><br> Zkrátka řečeno, o zábavu tu máme postaráno 😎",
         "qrcode": "./res/img/qrcodes/fb.png",
         "images": [
             {
-                "path": "./res/img/slides/ft/1.jpeg",
+                "path": "./res/img/slides/ft/1.jpg",
+                "heading": "Valorant",
+                "info": "Vánoční období zpestřil také turnaj ve hře Valorant, který nabídl souboje plné strategie, přesnosti a týmové souhry. Žáci ukázali své schopnosti v náročných zápasech, kde rozhodovala nejen technická dovednost, ale i schopnost spolupracovat a reagovat na měnící se situace."
+            },
+            {
+                "path": "./res/img/slides/ft/2.jpg",
                 "heading": "Sportovní kurz",
-                "info": "BOWLING!"
+                "info": "Součástí sportovního kurzu byla lekce golfu, při které si žáci osvojili základy techniky úderu, etiketu hry a pravidla fair play. Kurz přinesl nejen sportovní vyžití, ale i příležitost k rozvoji soustředění a trpělivosti v krásném prostředí golfového hřiště."
             },
             {
-                "path": "./res/img/slides/ft/2.jpeg",
+                "path": "./res/img/slides/ft/5.jpg",
                 "heading": "Sportovní kurz",
-                "info": "Vyhlídka U Lvíčka"
-            },
-            {
-                "path": "./res/img/slides/ft/3.jpeg",
-                "heading": "Sportovní kurz",
-                "info": "Na vodě"
-            },
-            {
-                "path": "./res/img/slides/ft/4.jpg",
-                "heading": "Školní výlet",
-                "info": "Lučany nad Nisou"
-            },
-            {
-                "path": "./res/img/slides/ft/5.jpeg",
-                "heading": "Školní výlet",
-                "info": "Lučany nad Nisou"
-            },
-            {
-                "path": "./res/img/slides/ft/6.jpeg",
-                "heading": "Školní výlet",
-                "info": "Hamr na Jezeře"
-            },
-            {
-                "path": "./res/img/slides/ft/7.jpeg",
-                "heading": "Fotka z hodiny",
-                "info": "😎"
+                "info": "Součástí sportovního kurzu byla cyklistická výprava, při které žáci zdolali desítky kilometrů v malebné krajině. Kurz přinesl nejen fyzickou aktivitu, ale i spolupráci, zodpovědnost a zážitky, na které se nezapomíná."
             }
         ]
     }
