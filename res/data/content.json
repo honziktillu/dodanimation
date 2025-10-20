@@ -6,22 +6,22 @@
         "qrcode": "./res/img/qrcodes/it.png",
         "images": [
             {
-                "path": "./res/img/slides/it/1.jpeg",
+                "path": "./res/img/slides/it/1.jpeg?v=2",
                 "heading": "Učebna 30",
                 "info": "Moderní rekonstruovaná učebna ve stylu 30. let. Slouží pro výuku předmětů: Programování, Operační systémy, Virtuální realita, Webové aplikace a další! Velké díky patří Nadačnímu fondu ŠKODA AUTO, který tento počin inicioval a financoval."
             },
             {
-                "path": "./res/img/slides/it/2.jpeg",
+                "path": "./res/img/slides/it/2.jpeg?v=2",
                 "heading": "Nově u nás i virtuální realita!",
                 "info": "Žáci mohou u nás nově zabrouzdat do unikátního 3D prostředí, který nachází využití nejen v herním průmyslu, ale také ve strojírenství, matematice a ve školství!"
             },
               {
-                "path": "./res/img/slides/it/4.jpeg",
+                "path": "./res/img/slides/it/4.jpeg?v=2",
                 "heading": "Učebna virtuální reality ve virtuální realitě",
                 "info": "Tato učebna virtuální reality byla vymodelována přímo ve VR prostředí v Unreal Engine 5. Žáci si tak zkouší, jak pracovat s 3D prostorem přímo „uvnitř“ virtuální reality, rozvíjejí prostorovou představivost a získávají zkušenosti s moderními nástroji pro vizualizaci a návrh prostředí."
             },
             {
-                "path": "./res/img/slides/it/3.jpeg",
+                "path": "./res/img/slides/it/3.jpeg?v=2",
                 "heading": "Realizování modelů pomocí 3d tisku!",
                 "info": "Na této fotce se tiskne 3D busta jednoho z našich učitelů. Žáci se při 3D tisku učí pracovat s modelem, připravovat ho pro tisk a sledovat celý proces vrstvení. Projekt ukazuje, jak lze digitální návrh převést do hmatatelného objektu a rozvíjí praktické dovednosti v moderní výrobě."
             }
@@ -34,17 +34,17 @@
         "qrcode": "./res/img/qrcodes/st.png",
         "images": [
             {
-                "path": "./res/img/slides/st/1.png",
+                "path": "./res/img/slides/st/1.png?v=2",
                 "heading": "CAD systém CATIA",
                 "info": "CATIA je software pro 3D modelování a konstrukci strojních součástí. Na naší škole se žáci naučí vytvářet vlastní modely a výkresy a získají zkušenosti s programem používaným v průmyslu. Díky práci v CATIA si rozvíjejí technické myšlení a připravují se na praxi."
             },
             {
-                "path": "./res/img/slides/st/2.jpg",
+                "path": "./res/img/slides/st/2.jpg?v=2",
                 "heading": "CAD systém CATIA",
                 "info": "Tento obrázek ukazuje hotovou 3D převodovku vytvořenou v CAD systému CATIA. Žáci si tak mohou prohlédnout základní součásti a jejich propojení, pochopit principy převodového mechanismu a vidět výsledný funkční model."
             },
             {
-                "path": "./res/img/slides/st/3.jpg",
+                "path": "./res/img/slides/st/3.jpg?v=2",
                 "heading": "Elektrotechnika",
                 "info": "Žáci se učí základy elektrotechniky a elektroniky pomocí speciální výukové sady. Sestavují a testují elektrické obvody a používají multimetr k měření napětí a proudu, aby si ověřili funkčnost zapojení. Tato praktická výuka rozvíjí jejich technické dovednosti."
             }
@@ -57,17 +57,17 @@
         "qrcode": "./res/img/qrcodes/tl.png",
         "images": [
              {
-                "path": "./res/img/slides/tl/1.jpeg",
+                "path": "./res/img/slides/tl/1.jpeg?v=2",
                 "heading": "Co je Technické lyceum?",
                 "info": "Technické lyceum je maturitní obor zaměřený na mechatroniku a robotiku. Studenti se seznámí s moderními technologiemi, jako jsou platforma Arduino, profesionální systém RobotStudio a CAD systémy ve špičkovém CAD systému CATIA."
             },
             {
-                "path": "./res/img/slides/tl/2.jpg",
+                "path": "./res/img/slides/tl/2.jpg?v=2",
                 "heading": "Praktické dovednosti a vybavení",
                 "info": "Během studia se studenti naučí pracovat s roboty, CNC stroji a 3D tiskárnami. Výuka probíhá v moderně vybavených učebnách. Studenti si také mohou vybrat specializaci: programování CNC strojů nebo počítačovou grafiku se zaměřením na virtuální realitu."
             },
             {
-                "path": "./res/img/slides/tl/3.jpg",
+                "path": "./res/img/slides/tl/3.jpg?v=2",
                 "heading": "Uplatnění a budoucnost",
                 "info": "Absolventi Technického lycea jsou připraveni k vysokoškolskému studiu technických a přírodovědných oborů. Mohou se uplatnit jako technologové průmyslových robotických linek, konstruktéři, designéři, programátoři a obsluha CNC strojů."
             }
@@ -80,17 +80,17 @@
         "qrcode": "./res/img/qrcodes/fb.png",
         "images": [
             {
-                "path": "./res/img/slides/ft/1.jpg",
+                "path": "./res/img/slides/ft/1.jpg?v=2",
                 "heading": "Valorant",
                 "info": "Vánoční období zpestřil také turnaj ve hře Valorant, který nabídl souboje plné strategie, přesnosti a týmové souhry. Žáci ukázali své schopnosti v náročných zápasech, kde rozhodovala nejen technická dovednost, ale i schopnost spolupracovat a reagovat na měnící se situace."
             },
             {
-                "path": "./res/img/slides/ft/2.jpg",
+                "path": "./res/img/slides/ft/2.jpg?v=2",
                 "heading": "Sportovní kurz",
                 "info": "Součástí sportovního kurzu byla lekce golfu, při které si žáci osvojili základy techniky úderu, etiketu hry a pravidla fair play. Kurz přinesl nejen sportovní vyžití, ale i příležitost k rozvoji soustředění a trpělivosti v krásném prostředí golfového hřiště."
             },
             {
-                "path": "./res/img/slides/ft/3.jpg",
+                "path": "./res/img/slides/ft/3.jpg?v=2",
                 "heading": "Sportovní kurz",
                 "info": "Součástí sportovního kurzu byla cyklistická výprava, při které žáci zdolali desítky kilometrů v malebné krajině. Kurz přinesl nejen fyzickou aktivitu, ale i spolupráci, zodpovědnost a zážitky, na které se nezapomíná."
             }
