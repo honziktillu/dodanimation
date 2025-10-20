@@ -133,7 +133,7 @@ const animationHideRightSide = () => {
 };
 
 window.onload = async () => {
-  data = await fetch("./res/data/content.json").then(r => r.json());
+  data = await fetch("./res/data/content.json?v=2").then(r => r.json());
   mainLoop();
   mainLoopInterval = setInterval(mainLoop, loopIntervalTimeout);
 };
