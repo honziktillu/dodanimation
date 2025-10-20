@@ -47,6 +47,16 @@
                 "path": "./res/img/slides/st/3.jpg?v=2",
                 "heading": "Elektrotechnika",
                 "info": "Žáci se učí základy elektrotechniky a elektroniky pomocí speciální výukové sady. Sestavují a testují elektrické obvody a používají multimetr k měření napětí a proudu, aby si ověřili funkčnost zapojení. Tato praktická výuka rozvíjí jejich technické dovednosti."
+            },
+            {
+                "path": "./res/img/slides/st/4.png?v=2",
+                "heading": "Nová laboratoř materiálů a metalografie",
+                "info": "Na naší škole bude nově otevřena Laboratoř materiálů a metalografie. Jejím cílem je umožnit žákům zkoumat různé materiály, jejich vlastnosti a strukturu pomocí moderních přístrojů a metod."
+            },
+            {
+                "path": "./res/img/slides/st/5.jpg?v=2",
+                "heading": "Využití nové laboratoře v praxi",
+                "info": "Laboratoř bude využívána při výuce technických předmětů i v samostatných laboratorních cvičeních. Žáci tak získají praktické zkušenosti s analýzou materiálů a lépe porozumí jejich chování v reálných konstrukčních aplikacích."
             }
         ]
     },
